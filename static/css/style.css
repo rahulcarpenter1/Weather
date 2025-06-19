@@ -1,0 +1,50 @@
+.pro{
+    /* background-color: aqua !important; */
+    background-image: url(/static/images/sky1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.weather{
+    color: rgb(233, 233, 233) !important;
+    font-weight: 400 !important;
+    text-shadow: 4px -1px 0px black;
+    /* font-size: 25px !important; */
+}
+.new{
+    border-radius: 20px;
+    /* background-color: rgb(19, 18, 20); */
+    background: rgba(255, 255, 255, 0.2);
+     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.temp{
+    font-size: 4rem !important;
+}
+input{
+    height: 50px;
+    /* width: 346px !important; */
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    /* margin: 50px !important; */
+    
+}
+button{
+    border: none;
+    height: 50px;
+    border-radius: 20px !important;
+    width: 150px;
+    text-align: center;
+    font-size: 20px !important;
+    /* margin: 60px !important; */
+}
+.temp, .temp1{
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+.Weather-info p{
+    margin-bottom: 5px !important;
+    font-size: 20px !important;
+}

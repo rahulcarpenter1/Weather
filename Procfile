@@ -1,0 +1,1 @@
+"web: gunicorn mansoon1.wsgi"
